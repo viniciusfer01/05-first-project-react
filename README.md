@@ -1,5 +1,5 @@
 # GitHub Explorer
-This is an app that uses GitHub's API, lets you search for repositories available on the site and stores them in a local cache in your browser.
+This is an app that uses GitHub's API, lets you search for repositories available on the site. It also stores them in a local cache in your browser and lets you see its issues, stars and forks.
 
 The app is being built using ReactJS and Typescript.
 
