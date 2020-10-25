@@ -1,17 +1,35 @@
 # GitHub Explorer
-This is an app that uses GitHub's API, lets you search for repositories available on the site. It also stores them in a local cache in your browser and lets you see its issues, stars and forks.
+This is an app that uses GitHub's API and lets you search for repositories available on the site. It also stores them in a local cache on your browser and lets you see the issues, stars and forks of the repository you click.
 
-## Home Page:
+### Tools used
 
-![Home Page of the app](/src/assets/Home.png "Home Page")
+- React
+- Typescript
 
-## Dashboard:
+### Results
 
-![Dashboard of the app](/src/assets/Dashboard.png "Dashboard")
+_Home Page_ ![GitHub Explorer Home Page](/src/assets/Home.png)
 
-The app is being built using ReactJS and Typescript.
+_Dashboard_ ![GitHub Explorer Dashboard](/src/assets/Dashboard.png)
 
-To start using the app while in development, you must download the repository, open it in your preffered IDE,
-type 'yarn' on the console to install the dependencies, and last but not least, type 'yarn start' on the console to launch the app in a local server on your machine.
+## Want to check it out?
 
-After you've started the app on your machine, you can search for any public repository from GitHub by simply typing the name of the profile followed by a dash and the name of the repository (example: profile/repository).
+Access [This Link](https://git-hub-explorer-sooty.vercel.app/) to test the app deployed in [Vercel](https://vercel.com/).
+
+Then, you can search for any public repository from GitHub by simply typing the name of the profile followed by a dash and the name of the repository (example: profile/repository).
+
+You can also click on a repository to see more details about it.
+
+### Things to do
+
+- [x] Search for a repository on GitHub
+- [x] List the repositories 
+- [x] Once clicked, show more details about the repository (its issues, stars and forks)
+
+### How to run it?
+
+1. `git clone https://github.com/viniciusfer01/05-first-project-react.git`
+2. `cd 05-first-project-react`
+3. `yarn`
+4. `yarn start`
+
